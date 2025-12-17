@@ -1,6 +1,5 @@
 import { TODOS_GET_FAILED, TODOS_GET_REQUEST, TODOS_GET_SUCCESS } from "../constant/todosConstants";
 
-
 const initialState = {
     isLoading: false,
     todos: [],
