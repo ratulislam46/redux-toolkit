@@ -1,11 +1,10 @@
 import './App.css';
-import TodosData from './components/todosData';
-
+import Todos from './components/Todos'
 function App() {
 
   return (
     <div className='todo-container'>
-      <TodosData />
+      <Todos />
     </div>
   )
 }
