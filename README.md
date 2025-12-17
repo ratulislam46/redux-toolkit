@@ -1,11 +1,11 @@
-# 📝 Todos App (Redux + Axios)
+# 📝 Todos App (Redux)
 
 A simple **Todos application** built with **React**, **Redux (Thunk)**, and **Axios**.
 This project demonstrates how to manage **global state**, handle **async API calls**, and structure Redux properly.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Fetch todos from external API
 * Redux state management
@@ -51,7 +51,7 @@ src/
 
 ---
 
-## 🧩 Redux Constants
+## Redux Constants
 
 ```js
 // redux/constants/todosConstants.js
@@ -62,7 +62,7 @@ export const TODOS_GET_SUCCESS = "TODOS_GET_SUCCESS";
 
 ---
 
-## ⚙️ Redux Async Action (Axios)
+## Redux Async Action (Axios)
 
 ```js
 // redux/actions/todosActions.js
@@ -87,7 +87,7 @@ export const getAllTodos = () => async (dispatch) => {
 
 ---
 
-## 🧠 Redux Reducer
+## Redux Reducer
 
 ```js
 // redux/reducers/todosReducer.js
@@ -128,7 +128,7 @@ export const todosReducers = (state = initialState, action) => {
 
 ---
 
-## 🏪 Redux Store Setup
+## Redux Store Setup
 
 ```js
 // redux/store.js
@@ -182,7 +182,7 @@ export default Todos;
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 npm install
@@ -200,7 +200,7 @@ npm start
 
 ---
 
-## 🙌 Author
+## Author
 
 **Md Ratul Howlader**
 Junior Frontend / MERN Developer
