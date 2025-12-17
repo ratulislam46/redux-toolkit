@@ -1,0 +1,23 @@
+.todo-container {
+    text-align: center;
+}
+
+.todo-body {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #293462;
+    color: white;
+    padding: 0.5rem;
+}
+
+@media (min-width:400px) {
+    .todo-body {
+        grid-template-columns: auto auto auto auto;
+    }
+}; 
+
