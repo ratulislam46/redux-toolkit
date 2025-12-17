@@ -200,9 +200,9 @@ npm start
 
 ---
 
-## Author
+## 🙌 Author
 
-**Md Ratul Howlader**
+**Md Ratul Howlader** -
 Junior Frontend / MERN Developer
 
 
