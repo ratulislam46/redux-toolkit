@@ -9,13 +9,14 @@ const Todos = () => {
     useEffect(() => {
         dispatch(getAllTodos())
     }, [dispatch])
+
     return (
         <div>
             <h2>Todos Data Here</h2>
             {isLoading && <h3>Loading . . .</h3>}
             {error && <h3>{error.message}</h3>}
             <section className='todo-body'>
-                {todos && todos.map((todo) => {
+                {todos && todos?.map((todo) => {
                     const { id, title} = todo;;
                     console.log(todo);
                     return <div key={id} className='card'>
